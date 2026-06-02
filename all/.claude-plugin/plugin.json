@@ -1,7 +1,7 @@
 {
-  "name": "superbereza-all",
+  "name": "i-want-it-all",
   "version": "1.0.0",
-  "description": "Umbrella plugin — installs all superbereza skills at once (things, drop, claude-remote).",
+  "description": "Umbrella — installs all superbereza skills at once (things, drop, claude-remote). I want it all, and I want it now.",
   "author": {
     "name": "superbereza"
   },
