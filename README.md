@@ -1,5 +1,7 @@
 # superbereza.md
 
+> *The repository that will replace me. Patiently.*
+
 A public **Claude Code plugin marketplace** — small, cross-agent skills for AI coding agents. Each plugin is a standalone repo; this marketplace just aggregates them so you can install with one command.
 
 ## Use
