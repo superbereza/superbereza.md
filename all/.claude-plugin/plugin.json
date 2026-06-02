@@ -1,0 +1,20 @@
+{
+  "name": "superbereza-all",
+  "version": "1.0.0",
+  "description": "Umbrella plugin — installs all superbereza skills at once (things, drop, claude-remote).",
+  "author": {
+    "name": "superbereza"
+  },
+  "homepage": "https://github.com/superbereza/superbereza.md",
+  "keywords": [
+    "meta",
+    "umbrella",
+    "skills",
+    "ai-agents"
+  ],
+  "dependencies": [
+    "things",
+    "drop",
+    "claude-remote"
+  ]
+}
