@@ -1,0 +1,24 @@
+{
+  "name": "superbereza.md",
+  "description": "Public skills for AI coding agents — Things 3, file/app sharing, remote-control launcher.",
+  "owner": {
+    "name": "superbereza"
+  },
+  "plugins": [
+    {
+      "name": "things",
+      "description": "Read/write Things 3 tasks (inbox/today/projects, add/complete/update) — JSON output, CLI + agent skill",
+      "source": { "source": "github", "repo": "superbereza/things-cli" }
+    },
+    {
+      "name": "drop",
+      "description": "Securely share any file, folder, or running app via a password-protected HTTPS link",
+      "source": { "source": "github", "repo": "superbereza/agent-instant-drop" }
+    },
+    {
+      "name": "claude-remote",
+      "description": "Launch Claude Code Remote Control sessions in a detached tmux pane and get the claude.ai/code URL",
+      "source": { "source": "github", "repo": "superbereza/claude-remote-launcher" }
+    }
+  ]
+}
