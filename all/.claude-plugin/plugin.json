@@ -1,6 +1,6 @@
 {
   "name": "i-want-it-all",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Umbrella — installs all superbereza skills at once (things, drop, claude-remote). I want it all, and I want it now.",
   "author": {
     "name": "superbereza"
@@ -15,6 +15,7 @@
   "dependencies": [
     "things",
     "drop",
-    "claude-remote"
+    "claude-remote",
+    "browser"
   ]
 }
