@@ -1,6 +1,6 @@
 {
   "name": "superbereza.md",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Public skills for AI coding agents — Things 3, file/app sharing, remote-control, browser automation.",
   "owner": {
     "name": "superbereza"
@@ -23,11 +23,19 @@
       }
     },
     {
-      "name": "claude-sessions-toolbox",
-      "description": "Launch + persist Claude Code Remote Control / tmux sessions — claude-remote (spawn) + claude-keep (self-heal across reboots)",
+      "name": "claude-remote",
+      "description": "Launch Claude Code Remote Control sessions in tmux and get the claude.ai/code URL — CLI + skill",
       "source": {
         "source": "url",
-        "url": "https://github.com/superbereza/claude-sessions-toolbox.git"
+        "url": "https://github.com/superbereza/claude-remote-launcher.git"
+      }
+    },
+    {
+      "name": "claude-session-keeper",
+      "description": "Persist long-running Claude Code Remote Control / tmux sessions across reboots and crashes — self-register + self-heal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superbereza/claude-session-keeper.git"
       }
     },
     {
