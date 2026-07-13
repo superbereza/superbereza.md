@@ -32,6 +32,9 @@ claude plugin install things@superbereza.md
 | `things` | Things 3 CLI + skill — read/write tasks, JSON output | [things-cli](https://github.com/superbereza/things-cli) |
 | `drop` | Share any file, folder, or app via a password-protected HTTPS link | [agent-instant-drop](https://github.com/superbereza/agent-instant-drop) |
 | `claude-remote` | Launch Claude Code Remote Control sessions in a detached tmux pane | [claude-remote-launcher](https://github.com/superbereza/claude-remote-launcher) |
-| `i-want-it-all` | Umbrella — installs all of the above at once (depends on the three plugins) | — (lives here) |
+| `claude-session-keeper` | Persist Remote Control / tmux sessions across reboots and crashes | [claude-session-keeper](https://github.com/superbereza/claude-session-keeper) |
+| `claude-session-teleport` | Move a live chat session between machines — clone/migrate + tmux respawn | [claude-session-teleport](https://github.com/superbereza/claude-session-teleport) |
+| `browser` | Drive a real, headed web browser from the agent (persistent Playwright daemon) | [browser-skill](https://github.com/superbereza/browser-skill) |
+| `i-want-it-all` | Umbrella — installs all of the above at once | — (lives here) |
 
 Each plugin also works **standalone** (`git clone … && ./install.sh`) and as **its own marketplace** — see its repo. All are built to one skill-repo standard: the same `skills/` directory is consumed by **Claude Code, Cursor, Codex and Gemini**.

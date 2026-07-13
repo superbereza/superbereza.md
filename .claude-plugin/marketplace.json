@@ -39,6 +39,14 @@
       }
     },
     {
+      "name": "claude-session-teleport",
+      "description": "Move a live Claude Code chat session between machines — clone or migrate, respawn in tmux with Remote Control and a handoff briefing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superbereza/claude-session-teleport.git"
+      }
+    },
+    {
       "name": "browser",
       "description": "Drive a real browser from a coding agent — a CLI over a persistent Playwright daemon, with compact clickable page snapshots",
       "source": {
