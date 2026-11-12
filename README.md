@@ -15,7 +15,7 @@ A public **Claude Code plugin marketplace** — small, cross-agent skills for AI
 # …or pick individually:
 /plugin install things@superbereza.md
 /plugin install drop@superbereza.md
-/plugin install claude-remote@superbereza.md
+/plugin install agent-sessions@superbereza.md
 ```
 
 Non-interactive equivalent:
@@ -31,7 +31,7 @@ claude plugin install things@superbereza.md
 |---|---|---|
 | `things` | Things 3 CLI + skill — read/write tasks, JSON output | [things-cli](https://github.com/superbereza/things-cli) |
 | `drop` | Share any file, folder, or app via a password-protected HTTPS link | [agent-instant-drop](https://github.com/superbereza/agent-instant-drop) |
-| `claude-remote` | Launch Claude Code Remote Control sessions in a detached tmux pane | [claude-remote-launcher](https://github.com/superbereza/claude-remote-launcher) |
+| `agent-sessions` | Spawn, message and close Claude Code / Codex / any-CLI sessions in herdr or tmux (+ tmux→herdr migration) | [agent-sessions](https://github.com/superbereza/agent-sessions) |
 | `claude-session-keeper` | Persist Remote Control / tmux sessions across reboots and crashes | [claude-session-keeper](https://github.com/superbereza/claude-session-keeper) |
 | `claude-session-teleport` | Move a live chat session between machines — clone/migrate + tmux respawn | [claude-session-teleport](https://github.com/superbereza/claude-session-teleport) |
 | `browser` | Drive a real, headed web browser from the agent (persistent Playwright daemon) | [browser-skill](https://github.com/superbereza/browser-skill) |

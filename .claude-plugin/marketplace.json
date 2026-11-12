@@ -1,6 +1,6 @@
 {
   "name": "superbereza.md",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Public skills for AI coding agents — Things 3, file/app sharing, remote-control, browser automation.",
   "owner": {
     "name": "superbereza"
@@ -23,11 +23,11 @@
       }
     },
     {
-      "name": "claude-remote",
-      "description": "Launch Claude Code Remote Control sessions in tmux and get the claude.ai/code URL — CLI + skill",
+      "name": "agent-sessions",
+      "description": "Spawn, message and close coding-agent sessions — Claude Code, Codex or any CLI — in herdr or tmux, from one settings file; + tmux→herdr migration",
       "source": {
         "source": "url",
-        "url": "https://github.com/superbereza/claude-remote-launcher.git"
+        "url": "https://github.com/superbereza/agent-sessions.git"
       }
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "name": "i-want-it-all",
-      "description": "Umbrella — install all superbereza skills at once (things + drop + claude-remote)",
+      "description": "Umbrella — install all superbereza skills at once (things, drop, agent-sessions, keeper, teleport, browser)",
       "source": "./all"
     }
   ]
